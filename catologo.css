@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    font-family: 'new amsterdam';
+}
+body{
+    background-color: #545353 ;
+}
+
+#logo{
+    font-family: 'new amsterdam';
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: -30px;
+    left: 50px;
+    font-size: 50px;
+
+    
+}
+
+#logo a:hover{
+    color: #747264;
+}
+
+nav{
+    background-color: #3C3633;
+    border-bottom: 3px solid #101010;
+    height: 50px;
+    position: fixed;
+    z-index: +1;
+    width: 100%;
+}
+
+.item{
+    display: inline-block;/*itens da tabela ficam em linha ao inves de colunas*/
+    margin-right: 30px;
+    font-family: 'New Amsterdam';
+}
+
+.item a{
+    color:#EEEDEB;
+    text-decoration: none;
+}
+
+.item a:hover{
+    color: #747264;
+    transition: 2s;
+}
+
+#menu{
+    list-style: none;
+    float: right;
+    margin-top: 17px;
+    left: -25px;
+
+}
+#instagram{
+    font-size: 20px;
+}
+#user{
+    font-size: 20px;
+}
+
+#pesquisa{
+    border-radius: 5px;
+    position: absolute;
+    left: 590px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+    outline: none;
+}
+#center-img{
+    position: relative;
+    width: 500px;
+    height: 200px;
+    left: 430px;
+
+}
+
+.catalogo{
+    max-width: 1200px;
+    text-align: center;
+    padding-top: 100px;
+    margin: 0 auto;
+    max-width: 1150px;
+}
+
+.produtos{
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 5px;
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    position: relative;
+    background-color:#FFF ;
+    transition: .4s;
+
+}
+
+.produtos:hover{
+    width: 210px;
+    height: 320px ;
+}
+
+.botao{
+    background-color: #747264;
+    border-radius: 5px;
+    border: 2px solid black;
+    text-decoration: none;
+    color: #EEEDEB;
+    transition: .5s;
+    padding: 10px 5px;
+    position: absolute;
+    bottom: -20px;
+    left: 50px;
+}
+
+.botao:hover{
+    color: #747264;
+    background-color: #EEEDEB;
+
+}
+
+.paragrafo{
+    position: absolute;
+    padding: 10px 5px;
+    bottom: 20px;
+    left: 40px;
+    max-width: 150px;
+    word-wrap: break-word;     /* Força a quebra de palavras longas */
+    white-space: normal;       /* Permite quebras de linha automáticas */
+
+
+      
+}
+
+.img{
+    width: 180px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+#iphone_13{
+    width: 120px;
+    height: 200px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+
+#iphone_14{
+    width: 120px;
+    height: 200px;
+}
+
+#iphone_15{
+    width: 120px;
+    height: 200px;
+}
+
+#iphone_se{
+    width: 120px;
+    height: 200px;
+}
+#relogio{
+    width: 14 0px;
+    height: 200px;
+}
+
+#logo-sem-marca{
+    width: 200px;
+    height: 100px;
+}
+
+footer{
+    color: #EEEDEB;
+    background-color: #3C3633;
+
+
+}
+
+.lista-rodape{
+    text-decoration: none;
+    text-align:center ;
+    list-style: none;
+}
+
+
